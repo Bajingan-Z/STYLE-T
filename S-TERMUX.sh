@@ -1,7 +1,7 @@
 #==========================================================#
-# CODED BY RAKA ANDRIAN TARA
-# FACEBOOK : RAKA ANDRIAN TARA
-# CONTACT IG : raka_andrian27
+# CODED BY Angga
+# FACEBOOK : https://www.facebook.com/PEMUDA.KALEUM
+# CONTACT IG : Bangsat-XD
 #==========================================================#
 
 #==========================================#
@@ -48,7 +48,7 @@ pip2 install lolcat
 
 termux-setup-storage
 
-xdg-open https://www.facebook.com/profile.php?id=100000834003593
+xdg-open https://www.facebook.com/PEMUDA.KALEUM
 
 cd  /data/data/com.termux/files/usr/etc
 
@@ -113,7 +113,7 @@ echo -e "\e[1m\e[33m\
             ██████╔╝░░░██║░░░░░░██║░░░███████╗███████╗
             ╚═════╝░░░░╚═╝░░░░░░╚═╝░░░╚══════╝╚══════╝
 " | lolcat
-echo -e "\n  \033[1;90m00\033[1;93m0000000000000000000000000000000000000000000000000000000000\033[1;90m00\n  \033[1;92m00       \033[1;96mAUTHOR  : RAKA ANDRIAN TARA                    \033[1;92m     00\n  \033[1;95m00                                                          00\n  \033[1;94m00    \033[1;96m   FACEBOOK : MD ALAMIN KHAN                  \033[1;94m        00\n  \033[1;97m00                                                          00\n  \033[1;91m00    \033[1;96m  CONTACT  : https://www.facebook.com/alaminkhan.60\033[1;91m   00\n  \033[1;90m00\033[1;93m0000000000000000000000000000000000000000000000000000000000\033[1;90m00\n" | lolcat
+echo -e "\n  \033[1;90m00\033[1;93m0000000000000000000000000000000000000000000000000000000000\033[1;90m00\n  \033[1;92m00       \033[1;96mAUTHOR  : Bajingan-Z                    \033[1;92m     00\n  \033[1;95m00                                                          00\n  \033[1;94m00    \033[1;96m   FACEBOOK : MD ALAMIN KHAN                  \033[1;94m        00\n  \033[1;97m00                                                          00\n  \033[1;91m00    \033[1;96m  CONTACT  : https://www.facebook.com/alaminkhan.60\033[1;91m   00\n  \033[1;90m00\033[1;93m0000000000000000000000000000000000000000000000000000000000\033[1;90m00\n" | lolcat
 apt-get update -y
 echo " "
 apt-get upgrade -y
@@ -135,8 +135,8 @@ sleep 0.2
 clear
 sleep 0.2
 figlet -f big ' THANKS ' | lolcat
-figlet -f big '  Angga   ' | lolcat
-figlet -f big '  Raka ' | lolcat
+figlet -f big '   FOR   ' | lolcat
+figlet -f big ' WAITING ' | lolcat
 
 echo "  CUSTOMIZE DONE NOW EXIT FROM TERMUX AND OPEN AGAIN AFTER 5 SECOUNDS
  " | lolcat
