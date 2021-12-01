@@ -52,7 +52,7 @@ xdg-open https://www.facebook.com/profile.php?id=100000834003593
 
 cd  /data/data/com.termux/files/usr/etc
 
-rm bash.termux
+rm Bash.termux
 
 ls
 
@@ -64,7 +64,7 @@ cd TERMUX-STYLE
 
 ls
 
-cp bash.bashrc /data/data/com.termux/files/usr/etc
+cp Bash.termux /data/data/com.termux/files/usr/etc
 
 ls
 
@@ -135,8 +135,8 @@ sleep 0.2
 clear
 sleep 0.2
 figlet -f big ' THANKS ' | lolcat
-figlet -f big '  FOR   ' | lolcat
-figlet -f big ' WAITING ' | lolcat
+figlet -f big '  Angga   ' | lolcat
+figlet -f big '  Raka ' | lolcat
 
 echo "  CUSTOMIZE DONE NOW EXIT FROM TERMUX AND OPEN AGAIN AFTER 5 SECOUNDS
  " | lolcat
