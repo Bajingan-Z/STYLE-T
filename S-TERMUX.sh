@@ -52,7 +52,7 @@ xdg-open https://www.facebook.com/profile.php?id=100000834003593
 
 cd  /data/data/com.termux/files/usr/etc
 
-rm bash.bashrc
+rm bash.termux
 
 ls
 
