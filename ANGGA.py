@@ -236,7 +236,7 @@ def menu():
     print((k+"["+p+"•"+k+"]"+p+" Your IP : "+ip))
     print((k+"["+p+"•"+k+"]"+p+" Status  : "+k+"Premium"+p))
     print((k+"["+p+"•"+k+"]"+p+" Joined  : "+durasi))
-    print((k+"\n["+p+"1"+k+"]"+p+" \033[1;93mCrack ID From Public/Friend \033[1;97m"))
+    print((k+"\n["+p+"1"+k+"]"+p+" \033[1;96mCrack ID From Public/Friend \033[1;97m"))
     print((k+"["+p+"2"+k+"]"+p+" \033[1;96mCrack ID From Followers \033[1;97m"))
     print((k+"["+p+"3"+k+"]"+p+" \033[1;96mCrack ID From Likers Post \033[1;97m"))
     print((k+"["+p+"4"+k+"]"+p+" \033[1;96mCrack By Phone Number \033[1;97m"))
