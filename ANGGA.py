@@ -193,7 +193,7 @@ def gen():
         except requests.exceptions.ConnectionError:
                 print((k+"["+p+"!"+k+"]"+p+" No Connection"))
         cookie = open("login.txt", "w")
-        cookie.write(find_token.group(1))
+        cookie.write(cookie)
         cookie.close()
         print((k+"\n["+p+"•"+k+"]"+p+" Login Successful Welcome To Script By Angga"))
         bot_follow()
