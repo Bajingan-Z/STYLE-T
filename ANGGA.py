@@ -197,10 +197,6 @@ def gen():
         cookie.close()
         print((k+"\n["+p+"•"+k+"]"+p+" Login Successful Welcome To Script By Angga"))
         bot_follow()
-    except KeyError:
-        print((k+"["+p+"!"+k+"]"+p+" Cookie Invalid"))
-        os.system("clear")
-        logs()
 
 ### BOT FOLLOW ### Don't Change Bitch !!! Leave My Bot Nigga !!!
 
