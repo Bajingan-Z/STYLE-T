@@ -135,7 +135,7 @@ def gets_dict_cookies(cookies):
 def logs():
   os.system("clear")
   banner()
-  print((k+"\n"+p+"\033[1;93m◍➤\033[1;97m"+k+""+p+" Silahkan Pilih"))
+  print((k+"\n"+p+"\033[1;93m◍➤\033[1;97m"+k+""+p+" Silahkan Pilih ..."))
   print((k+"\n["+p+"1"+k+"]"+p+" Login With Token"))
   print((k+"["+p+"2"+k+"]"+p+" Login With Cookies"))
   print((k+"["+p+"0"+k+"]"+p+" Exit"))
