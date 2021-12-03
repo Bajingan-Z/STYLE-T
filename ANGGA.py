@@ -277,8 +277,8 @@ def choose_menu():
 		menu()	
 
 def pilihcrack(file):
-  print((k+"\n["+p+"1"+k+"]"+p+" \033[1;96mApi \033[1;97m("+k+"Fast"+p+")"))
-  print((k+"["+p+"2"+k+"]"+p+" \033[1;96mApi + TTL \033[1;97m("+k+"Fast"+p+")"))
+  print((k+"\n["+p+"1"+k+"]"+p+" \033[1;96mApi \033[1;97m("+k+"Fast Recommended"+p+")"))
+  print((k+"["+p+"2"+k+"]"+p+" \033[1;96mApi + TTL \033[1;97m("+k+"Error"+p+")"))
   print((k+"["+p+"3"+k+"]"+p+" \033[1;96mMbasic \033[1;97m("+k+"Slow"+p+")("+h+"Recommended"+p+")"))
   print((k+"["+p+"4"+k+"]"+p+" \033[1;96mMbasic + TTL \033[1;97m("+k+"Slow"+p+")"))
   print((k+"["+p+"5"+k+"]"+p+" \033[1;96mFree Facebook \033[1;97m("+k+"Super Slow"+p+")"))
