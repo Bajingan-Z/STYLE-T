@@ -277,11 +277,11 @@ def choose_menu():
 		menu()	
 
 def pilihcrack(file):
-  print((k+"\n["+p+"1"+k+"]"+p+" \033[1;96mApi \033[1;97m["+h+"Fast Recommended"+p+"]"))
-  print((k+"["+p+"2"+k+"]"+p+" \033[1;96mApi + TTL \033[1;97m["+h+"Fast"+p+"]"))
-  print((k+"["+p+"3"+k+"]"+p+" \033[1;96mMbasic \033[1;97m["+h+"Slow Recommended"+p+"]"))
-  print((k+"["+p+"4"+k+"]"+p+" \033[1;96mMbasic + TTL \033[1;97m["+h+"Slow"+p+"]"))
-  print((k+"["+p+"5"+k+"]"+p+" \033[1;96mFree Facebook \033[1;97m["+h+"Super Slow"+p+"]"))
+  print((k+"\n["+p+"1"+k+"]"+p+" \033[1;96mApi \033[1;97m[ "+h+"Fast Recommended"+p+" ]"))
+  print((k+"["+p+"2"+k+"]"+p+" \033[1;96mApi + TTL \033[1;97m[ "+h+"Fast"+p+" ]"))
+  print((k+"["+p+"3"+k+"]"+p+" \033[1;96mMbasic \033[1;97m[ "+h+"Slow Recommended"+p+" ]"))
+  print((k+"["+p+"4"+k+"]"+p+" \033[1;96mMbasic + TTL \033[1;97m[ "+h+"Slow"+p+" ]"))
+  print((k+"["+p+"5"+k+"]"+p+" \033[1;96mFree Facebook \033[1;97m[ "+h+"Super Slow"+p+" ]"))
   krah=input(k+"\n["+p+"•"+k+"]"+p+" \033[1;96mChoose \033[1;97m: ")
   if krah in[""]:
     print((k+"["+p+"!"+k+"]"+p+" Fill In The Correct"))
