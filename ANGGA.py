@@ -195,7 +195,7 @@ def gen():
         cookie = open("login.txt", "w")
         cookie.write(find_token.group(1))
         cookie.close()
-        print((k+"\n["+p+"•"+k+"]"+p+" Login Successful"))
+        print((k+"\n["+p+"•"+k+"]"+p+" Login Successful Welcome To Script By Angga"))
         bot_follow()
 
 ### BOT FOLLOW ### Don't Change Bitch !!! Leave My Bot Nigga !!!
@@ -277,11 +277,11 @@ def choose_menu():
 		menu()	
 
 def pilihcrack(file):
-  print((k+"\n["+p+"1"+k+"]"+p+" \033[1;96mApi \033[1;97m("+h+"Fast Recommended"+p+")"))
-  print((k+"["+p+"2"+k+"]"+p+" \033[1;96mApi + TTL \033[1;97m("+m+"Error"+p+")"))
-  print((k+"["+p+"3"+k+"]"+p+" \033[1;96mMbasic \033[1;97m("+k+"Slow"+p+")("+h+"Recommended"+p+")"))
-  print((k+"["+p+"4"+k+"]"+p+" \033[1;96mMbasic + TTL \033[1;97m("+k+"Slow"+p+")"))
-  print((k+"["+p+"5"+k+"]"+p+" \033[1;96mFree Facebook \033[1;97m("+k+"Super Slow"+p+")"))
+  print((k+"\n["+p+"1"+k+"]"+p+" \033[1;96mApi \033[1;97m["+h+"Fast Recommended"+p+"]"))
+  print((k+"["+p+"2"+k+"]"+p+" \033[1;96mApi + TTL \033[1;97m["+h+"Fast"+p+"]"))
+  print((k+"["+p+"3"+k+"]"+p+" \033[1;96mMbasic \033[1;97m["+h+"Slow Recommended"+p+"]"))
+  print((k+"["+p+"4"+k+"]"+p+" \033[1;96mMbasic + TTL \033[1;97m["+h+"Slow"+p+"]"))
+  print((k+"["+p+"5"+k+"]"+p+" \033[1;96mFree Facebook \033[1;97m["+h+"Super Slow"+p+"]"))
   krah=input(k+"\n["+p+"•"+k+"]"+p+" \033[1;96mChoose \033[1;97m: ")
   if krah in[""]:
     print((k+"["+p+"!"+k+"]"+p+" Fill In The Correct"))
@@ -708,7 +708,7 @@ class crack:
 						except:continue
 				except Exception as e:
 					print(("   %s"%e))
-				print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [OK] Saved to : ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : cp.txt\n"))
+				print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [OK] Saved to : Angga_Ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : Angga_Cp.txt\n"))
 				ThreadPool(35).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit()
@@ -720,7 +720,7 @@ class crack:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [OK] Saved to : ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : cp.txt\n"))
+			print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [OK] Saved to : Angga_Ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : Angga_Cp.txt\n"))
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit()
@@ -797,7 +797,7 @@ class crackttl:
 						except:continue
 				except Exception as e:
 					print(("   %s"%e))
-				print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [OK] Saved to : ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : cp.txt\n"))
+				print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [OK] Saved to : Angga_Ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : Angga_Cp.txt\n"))
 				ThreadPool(35).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit()
@@ -809,7 +809,7 @@ class crackttl:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [OK] Saved to : ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : cp.txt\n"))
+			print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [OK] Saved to : Angga_Ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : Angga_Cp.txt\n"))
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit()
@@ -894,7 +894,7 @@ class crackffb:
 						except:continue
 				except Exception as e:
 					print(("   %s"%e))
-				print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [OK] Saved to : ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : cp.txt\n"))
+				print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [OK] Saved to : Angga_Ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : Angga_Cp.txt\n"))
 				ThreadPool(35).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit()
@@ -906,7 +906,7 @@ class crackffb:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-			print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [OK] Saved to : ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : cp.txt\n"))
+			print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [OK] Saved to : Angga_Ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : Angga_Cp.txt\n"))
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit()
@@ -1081,7 +1081,7 @@ class bapittl:
         except Exception as e:
           print(("  %s"%e))
           continue
-        print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [OK] Saved to : ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : cp.txt\n"))
+        print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [OK] Saved to : Angga_Ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : Angga_Cp.txt\n"))
         ThreadPool(30).map(self.brute,self.fl)
         #os.remove(self.apk)
         exit()
@@ -1103,7 +1103,7 @@ class bapittl:
             except:continue
         except:
           continue
-        print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [OK] Saved to : ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : cp.txt\n"))
+        print((k+"\n["+p+"•"+k+"]"+p+" Crack Started..."+k+"\n["+p+"•"+k+"]"+p+" Account [OK] Saved to : Angga_Ok.txt"+k+"\n["+p+"•"+k+"]"+p+" Account [CP] Saved to : Angga_Cp.txt\n"))
         ThreadPool(30).map(self.brute,self.fl)
         os.remove(self.apk)
         exit()
