@@ -231,7 +231,7 @@ def menu():
     ip = requests.get("https://api.ipify.org").text
     os.system("clear")
     banner()
-    print((k+"\n[ "+p+"\033[1;95mWELCOME "+a["name"]\033[1;97m+k+" ]"+p))
+    print((k+"\n[ "+p+"WELCOME "+a["name"]+k+" ]"+p))
     print((k+"\n["+p+"•"+k+"]"+p+" Your ID : "+id))
     print((k+"["+p+"•"+k+"]"+p+" Your IP : "+ip))
     print((k+"["+p+"•"+k+"]"+p+" Status  : "+k+"Premium"+p))
