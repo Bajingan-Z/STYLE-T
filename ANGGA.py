@@ -1051,7 +1051,7 @@ class bapittl:
     self.cp = []
     self.loop = 0
     self.krah(isifile)
-  def krah(self):
+  def krah(self,isifile):
     print((k+"\n["+p+"•"+k+"]"+p+" Crack With Pass Default/Manual [d/m]"))
     while True:
       f=input(k+"["+p+"•"+k+"]"+p+" Choose : ")
