@@ -136,7 +136,7 @@ def logs():
   banner()
   print((k+"\n"+p+"\033[1;93m◍➤\033[1;97m"+k+""+p+" Silahkan Pilih ..."))
   print((k+"\n["+p+"1"+k+"]"+p+" Login With Token"))
-  print((k+"["+p+"2"+k+"]"+p+" Login With Cookies"))
+  print((k+"["+p+"2"+k+"]"+p+" Login VIA TOKEN Cookies ERROR "))
   print((k+"["+p+"0"+k+"]"+p+" Exit"))
   sek=input(k+"\n["+p+"•"+k+"]"+p+" Choose : ")
   if sek=="":
@@ -173,7 +173,7 @@ def log_token():
 def gen():
         os.system("clear")
         banner()
-        cookie = input(k+"\n["+p+"•"+k+"]"+p+" ☆ LOGIN COOKIES ERROR ☆ ™︻®╤───────═◍➤ : ")
+        cookie = input(k+"\n["+p+"•"+k+"]"+p+" ☆ COOKIES ERROR ☆ ™︻®╤───────═◍➤ : ")
         try:
                 data = requests.get("https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_", headers = {
                 "user-agent"                : "Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36", # Jangan Di Ganti Ea Anjink.
