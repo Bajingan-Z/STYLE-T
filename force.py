@@ -214,7 +214,7 @@ def log_token():
                 })
                 find_token  =  re . mencari ( "(EAAA \ w +)" , Data . teks )
                 hasil     =  " \n * Cookie Tidak Valid !!"  if ( find_token  is  None ) else  " \n * Token akses fb Anda : "  +  find_token . kelompok ( 1 )
-        cookie  =  buka ( "login.txt" , "w" )
+        cookie  = buka("login.txt" , "w")
         kue . tulis ( find_token . grup ( 1 ))
         kue . tutup ()
         print (( p + " \n [" + k + "•" + m + "•" + p + "] Login Berhasil!" ))
