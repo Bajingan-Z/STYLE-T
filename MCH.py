@@ -1,7 +1,6 @@
 import requests,os,sys,re
 import subprocess
 from time import sleep
-from colorama import Fore
 from datetime import datetime
 s=requests.Session()
 
