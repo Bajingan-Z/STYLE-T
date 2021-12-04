@@ -15,7 +15,7 @@ os.system("clear")
 
 
 delay=mxanh+"""        
-                      \033[1;31mYTB: \033[1;33mVăn Phương Tricker 💖
+                      \033[1;31mFB: \033[1;33mRaka Andrian Tara 💖
                  \033[1;92m▒█▀▀█ ▒█░▒█ ▒█░▒█ ▒█▀▀▀█ ▒█▄░▒█ ▒█▀▀█  
                  \033[1;92m▒█▄▄█ ▒█▀▀█ ▒█░▒█ ▒█░░▒█ ▒█▒█▒█ ▒█░▄▄  
                  \033[1;92m▒█░░░ ▒█░▒█ ░▀▄▄▀ ▒█▄▄▄█ ▒█░░▀█ ▒█▄▄█  """
@@ -33,7 +33,7 @@ print(mtrang+"\033[1;32m[\033[1;31m●\033[1;32m]\033[1;33m●Bản quyền tool
 print('\r')             
 print(mxanh+f"\033[1;32m[\033[1;31m●\033[1;32m]Nhóm Zalo Hỗ Trợ Chạy {mtrang}Tool + Share{mxanh} All Tool Free")
 print('\r')              
-print(mdo+f"\033[1;32m[\033[1;31m●\033[1;32m]{mvang}[{mdo}https://zalo.me/g/ayfulb045{mvang}]")
+print(mdo+f"\033[1;32m[\033[1;31m●\033[1;32m]{mvang}[{mdo}https://github.com/Bajingan-Z{mvang}]")
 print('\r')
 print(mxanh+f"\033[1;32m[\033[1;31m●\033[1;32m]Tool FREEE - Cấm {mtrang}Mua / Bán {mxanh}Dưới Mọi Hình Thức")
 
