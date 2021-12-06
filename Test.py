@@ -200,7 +200,7 @@ def menu():
         upgrade = ('Upgrade To Version %sPro'%(O))
         jid = ('%s[%s9999 ID%s]'%(O,P,O))
     try:
-        token = open("token.txt","r").read()
+        token = open("token.txt", "w").read()
         x = requests.get("https://graph.facebook.com/me?access_token=" + token)
         y = json.loads(x.text)
         n = y['name']
