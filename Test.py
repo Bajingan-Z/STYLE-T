@@ -55,7 +55,7 @@ def clear():
     elif "win" in sys.platform.lower():os.system("cls")
     else:os.system("clear")
 def banner():
-    print("\n%s    _________ __     \n%s   / ____/ (_) /____  ║ %sDesign By %sHikmat %s& %sNdrii X Putri\n%s  / __/ / / / __/ _ \ ║ %sFB %s: %sFacebook.com/100028333393444\n%s / /___/ / / /_/  __/ ║ %sFB %s: %sPUTRI CANS II\n%s/_____/_/_/\__/\___/  ║ %sGithub %s: %sGithub.com/Hikmat-Gans-Awokawok\n"%(O,O,P,O,P,O,O,P,O,P,O,P,O,P,O,P,O,P))
+    print("\n%s    _________ __     \n%s   / ____/ (_) /____  ║ %sCreated By %sBajingan-Z %s& %sBangsat-XD\n%s  / __/ / / / __/ _ \ ║ %sIg %s: %sbangsat_xd\n%s / /___/ / / /_/  __/ ║ %sTw %s: %sbangsat-xd II\n%s/_____/_/_/\__/\___/  ║ %sGithub %s: %sGithub.com/Bajingan-Z\n"%(O,O,P,O,P,O,O,P,O,P,O,P,O,P,O,P,O,P))
 def menu_log():
     os.system('rm -rf token.txt')
     clear()
@@ -134,15 +134,15 @@ def menu_log():
             jalan('%s╚══[%s!%s] %sIsi Yang Benar'%(M,P,M,P))
             menu_log()
         elif pf in ['1','01','001','a']:
-            os.system('xdg-open https://facebook.com/BHAIDADAHO')
+            os.system('xdg-open https://facebook.com/PEMUDA.KALEUM')
             input('%s╚══[ %sReturn %s]%s'%(O,P,O,P))
             menu_log()
         elif pf in ['2','02','002','b']:
-            os.system('xdg-open https://facebook.com/BHAIDADAHO')
+            os.system('xdg-open https://facebook.com/PEMUDA.KALEUM')
             input('%s╚══[ %sReturn %s]%s'%(O,P,O,P))
             menu_log()
         elif pf in ['3','03','003','c']:
-            os.system('xdg-open https://facebook.com/BHAIDADAHO')
+            os.system('xdg-open https://facebook.com/PEMUDA.KALEUM')
             tutor_target()
             input('%s╚══[ %sReturn %s]%s'%(O,P,O,P))
             menu_log()
